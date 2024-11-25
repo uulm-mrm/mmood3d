@@ -1,0 +1,19 @@
+====================
+Third Party Licenses
+====================
+
+-------------------------------------------------------------------------
+Overview
+--------------------------------------------------------------------------
+
+mmdetection3d: https://github.com/open-mmlab/mmdetection3d
+License: Apache-2.0 license
+
+mmdetection: https://github.com/open-mmlab/mmdetection
+License: Apache-2.0 license
+
+VOS: https://github.com/deeplearning-wisc/vos
+License: Apache-2.0 license
+
+nuscenes-devkit: https://github.com/nutonomy/nuscenes-devkit
+License: Apache-2.0 license
