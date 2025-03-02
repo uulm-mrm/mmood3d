@@ -68,7 +68,7 @@ python tools/create_data.py nuscenes --root-path ./data/nuscenes --out-dir ./dat
 ```
 
 ## Train OOD Detector
-We provide weights for the CenterPoint detector trained on nuScenes with frames containing OOD objects removed. Download from [here](https://github.com/uulm-mrm/mmood3d/releases/download/base_detector/base_centerpoint_voxel01_second_secfpn_8xb4_cyclic_20e_nus_3d_known.pth) and place the checkpoint into the `checkpoints/` directory.
+We provide weights for the CenterPoint detector trained on nuScenes with frames containing OOD objects removed. Download from [here](https://github.com/uulm-mrm/mmood3d/releases/download/base_centerpoint/base_centerpoint_voxel01_second_secfpn_8xb4_cyclic_20e_nus_3d_known.pth) and place the checkpoint into the `checkpoints/` directory.
 We provide the configurations we use in the paper in the `mmood3d/configs` directory. When you want to train, e.g., with the full version:
 ```shell
 # single gpu
