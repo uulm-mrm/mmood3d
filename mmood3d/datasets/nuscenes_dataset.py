@@ -56,12 +56,12 @@ class NuScenesDataset(Det3DDataset):
     """
     METAINFO = {
         'classes':
-        #('car', 'truck', 'trailer', 'bus', 'construction_vehicle', 'bicycle',
-        #            'motorcycle', 'pedestrian', 'traffic_cone', 'barrier', 'animal', 'debris', 'pushable_pullable',
-        #            'personal_mobility', 'stroller', 'wheelchair', 'bicycle_rack', 'ambulance_vehicle',
-        #            'police_vehicle'),
         ('car', 'truck', 'trailer', 'bus', 'construction_vehicle', 'bicycle',
-         'motorcycle', 'pedestrian', 'traffic_cone', 'barrier'),
+         'motorcycle', 'pedestrian', 'traffic_cone', 'barrier', 'animal', 'debris', 'pushable_pullable',
+         'personal_mobility', 'stroller', 'wheelchair', 'bicycle_rack', 'ambulance_vehicle',
+         'police_vehicle'),
+        #('car', 'truck', 'trailer', 'bus', 'construction_vehicle', 'bicycle',
+        # 'motorcycle', 'pedestrian', 'traffic_cone', 'barrier'),
         'version':
         'v1.0-trainval',
         'palette': [
